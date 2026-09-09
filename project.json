@@ -1,0 +1,12 @@
+{
+  "name": "IPv6 OS Fingerprinting & RFC Behavior Lab",
+  "version": "1.0.0",
+  "source_basis": "SANS-Investigating-Operating-System-Variations-IPv6-Implementations-062226.pdf",
+  "scope": "isolated authorized IPv6 lab",
+  "features": [
+    "offline probe builders",
+    "synthetic PCAP generation",
+    "PCAP fingerprint analysis",
+    "test plan"
+  ]
+}
