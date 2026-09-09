@@ -1,7 +1,7 @@
 ﻿import streamlit as st
 from pathlib import Path
 from scapy.all import IPv6, ICMPv6EchoReply, rdpcap
-from ipv6lab.fingerprint import classify_reply
+from fingerprint import classify_reply
 
 st.set_page_config(
     page_title="IPv6 OS Fingerprinting Lab",
